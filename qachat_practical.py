@@ -1,7 +1,7 @@
 import os
 import streamlit as st
 
-os.environ['GEMINI_API_KEY'] = 'AIzaSyCfVF_sOMwGO31uxab5zoIAGBFJ0nm-EvE'
+os.environ['GEMINI_API_KEY'] = ''# Use you GEMINI API Key
 
 import google.generativeai as genai
 genai.configure(api_key=os.environ['GEMINI_API_KEY'])
