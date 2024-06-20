@@ -6,7 +6,7 @@ import textwrap
 from IPython.display import display
 from IPython.display import Markdown
 
-os.environ['GEMINI_API_KEY'] = 'AIzaSyCfVF_sOMwGO31uxab5zoIAGBFJ0nm-EvE'
+os.environ['GEMINI_API_KEY'] = '' # use you Gemini API key
 
 import google.generativeai as genai
 genai.configure(api_key=os.environ['GEMINI_API_KEY'])
