@@ -2,7 +2,7 @@ import streamlit as st
 import os
 from PIL import Image
 
-os.environ['GEMINI_API_KEY'] = 'AIzaSyCfVF_sOMwGO31uxab5zoIAGBFJ0nm-EvE'
+os.environ['GEMINI_API_KEY'] = '' # use you gemini API Key
 
 import google.generativeai as genai
 genai.configure(api_key=os.environ['GEMINI_API_KEY'])
